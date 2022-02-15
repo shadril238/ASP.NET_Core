@@ -1,0 +1,7 @@
+C:\Users\SHADRIL HASSAN\Desktop\C#\Tasks\Mid\LabTask-1\Lab1_2\Lab1_2\bin\Debug\Lab1_2.exe.config
+C:\Users\SHADRIL HASSAN\Desktop\C#\Tasks\Mid\LabTask-1\Lab1_2\Lab1_2\bin\Debug\Lab1_2.exe
+C:\Users\SHADRIL HASSAN\Desktop\C#\Tasks\Mid\LabTask-1\Lab1_2\Lab1_2\bin\Debug\Lab1_2.pdb
+C:\Users\SHADRIL HASSAN\Desktop\C#\Tasks\Mid\LabTask-1\Lab1_2\Lab1_2\obj\Debug\Lab1_2.csproj.SuggestedBindingRedirects.cache
+C:\Users\SHADRIL HASSAN\Desktop\C#\Tasks\Mid\LabTask-1\Lab1_2\Lab1_2\obj\Debug\Lab1_2.csproj.CoreCompileInputs.cache
+C:\Users\SHADRIL HASSAN\Desktop\C#\Tasks\Mid\LabTask-1\Lab1_2\Lab1_2\obj\Debug\Lab1_2.exe
+C:\Users\SHADRIL HASSAN\Desktop\C#\Tasks\Mid\LabTask-1\Lab1_2\Lab1_2\obj\Debug\Lab1_2.pdb
