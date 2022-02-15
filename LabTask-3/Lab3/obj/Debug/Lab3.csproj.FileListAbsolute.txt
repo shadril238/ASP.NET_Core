@@ -1,0 +1,16 @@
+C:\Users\SHADRIL HASSAN\Desktop\C#\Lab3\Lab3\bin\Debug\Lab3.exe.config
+C:\Users\SHADRIL HASSAN\Desktop\C#\Lab3\Lab3\bin\Debug\Lab3.exe
+C:\Users\SHADRIL HASSAN\Desktop\C#\Lab3\Lab3\bin\Debug\Lab3.pdb
+C:\Users\SHADRIL HASSAN\Desktop\C#\Lab3\Lab3\obj\Debug\Lab3.csproj.AssemblyReference.cache
+C:\Users\SHADRIL HASSAN\Desktop\C#\Lab3\Lab3\obj\Debug\Lab3.csproj.SuggestedBindingRedirects.cache
+C:\Users\SHADRIL HASSAN\Desktop\C#\Lab3\Lab3\obj\Debug\Lab3.csproj.CoreCompileInputs.cache
+C:\Users\SHADRIL HASSAN\Desktop\C#\Lab3\Lab3\obj\Debug\Lab3.exe
+C:\Users\SHADRIL HASSAN\Desktop\C#\Lab3\Lab3\obj\Debug\Lab3.pdb
+C:\Users\SHADRIL HASSAN\Desktop\C#\Task-3\Lab3\bin\Debug\Lab3.exe.config
+C:\Users\SHADRIL HASSAN\Desktop\C#\Task-3\Lab3\bin\Debug\Lab3.exe
+C:\Users\SHADRIL HASSAN\Desktop\C#\Task-3\Lab3\bin\Debug\Lab3.pdb
+C:\Users\SHADRIL HASSAN\Desktop\C#\Task-3\Lab3\obj\Debug\Lab3.csproj.AssemblyReference.cache
+C:\Users\SHADRIL HASSAN\Desktop\C#\Task-3\Lab3\obj\Debug\Lab3.csproj.SuggestedBindingRedirects.cache
+C:\Users\SHADRIL HASSAN\Desktop\C#\Task-3\Lab3\obj\Debug\Lab3.csproj.CoreCompileInputs.cache
+C:\Users\SHADRIL HASSAN\Desktop\C#\Task-3\Lab3\obj\Debug\Lab3.exe
+C:\Users\SHADRIL HASSAN\Desktop\C#\Task-3\Lab3\obj\Debug\Lab3.pdb
