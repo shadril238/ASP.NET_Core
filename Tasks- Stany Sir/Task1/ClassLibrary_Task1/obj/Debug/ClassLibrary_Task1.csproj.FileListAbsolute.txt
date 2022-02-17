@@ -1,0 +1,5 @@
+E:\C# -Stany Sir\Tasks\Task1\ClassLibrary_Task1\bin\Debug\ClassLibrary_Task1.dll
+E:\C# -Stany Sir\Tasks\Task1\ClassLibrary_Task1\bin\Debug\ClassLibrary_Task1.pdb
+E:\C# -Stany Sir\Tasks\Task1\ClassLibrary_Task1\obj\Debug\ClassLibrary_Task1.csproj.CoreCompileInputs.cache
+E:\C# -Stany Sir\Tasks\Task1\ClassLibrary_Task1\obj\Debug\ClassLibrary_Task1.dll
+E:\C# -Stany Sir\Tasks\Task1\ClassLibrary_Task1\obj\Debug\ClassLibrary_Task1.pdb

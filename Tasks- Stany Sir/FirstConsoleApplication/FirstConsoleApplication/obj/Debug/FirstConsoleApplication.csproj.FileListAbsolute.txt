@@ -1,0 +1,8 @@
+E:\C# -Stany Sir\Tasks\FirstConsoleApplication\FirstConsoleApplication\bin\Debug\FirstConsoleApplication.exe.config
+E:\C# -Stany Sir\Tasks\FirstConsoleApplication\FirstConsoleApplication\bin\Debug\FirstConsoleApplication.exe
+E:\C# -Stany Sir\Tasks\FirstConsoleApplication\FirstConsoleApplication\bin\Debug\FirstConsoleApplication.pdb
+E:\C# -Stany Sir\Tasks\FirstConsoleApplication\FirstConsoleApplication\obj\Debug\FirstConsoleApplication.csproj.AssemblyReference.cache
+E:\C# -Stany Sir\Tasks\FirstConsoleApplication\FirstConsoleApplication\obj\Debug\FirstConsoleApplication.csproj.SuggestedBindingRedirects.cache
+E:\C# -Stany Sir\Tasks\FirstConsoleApplication\FirstConsoleApplication\obj\Debug\FirstConsoleApplication.csproj.CoreCompileInputs.cache
+E:\C# -Stany Sir\Tasks\FirstConsoleApplication\FirstConsoleApplication\obj\Debug\FirstConsoleApplication.exe
+E:\C# -Stany Sir\Tasks\FirstConsoleApplication\FirstConsoleApplication\obj\Debug\FirstConsoleApplication.pdb

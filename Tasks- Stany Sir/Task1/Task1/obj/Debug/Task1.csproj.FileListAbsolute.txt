@@ -1,0 +1,22 @@
+E:\C# -Stany Sir\Tasks\Task1\Task1\obj\Debug\Task1.csproj.AssemblyReference.cache
+E:\C# -Stany Sir\Tasks\Task1\Task1\obj\Debug\Task1.csproj.SuggestedBindingRedirects.cache
+E:\C# -Stany Sir\Tasks\Task1\Task1\obj\Debug\Task1.csproj.CoreCompileInputs.cache
+E:\C# -Stany Sir\Tasks\Task1\Task1\bin\Debug\Task1.exe.config
+E:\C# -Stany Sir\Tasks\Task1\Task1\bin\Debug\Task1.exe
+E:\C# -Stany Sir\Tasks\Task1\Task1\bin\Debug\Task1.pdb
+E:\C# -Stany Sir\Tasks\Task1\Task1\bin\Debug\ClassLibrary_Task1.dll
+E:\C# -Stany Sir\Tasks\Task1\Task1\bin\Debug\ClassLibrary_Task1.pdb
+E:\C# -Stany Sir\Tasks\Task1\Task1\obj\Debug\Task1.csproj.CopyComplete
+E:\C# -Stany Sir\Tasks\Task1\Task1\obj\Debug\Task1.exe
+E:\C# -Stany Sir\Tasks\Task1\Task1\obj\Debug\Task1.pdb
+E:\C# -Stany Sir\Tasks- Stany Sir\Task1\Task1\bin\Debug\Task1.exe.config
+E:\C# -Stany Sir\Tasks- Stany Sir\Task1\Task1\bin\Debug\Task1.exe
+E:\C# -Stany Sir\Tasks- Stany Sir\Task1\Task1\bin\Debug\Task1.pdb
+E:\C# -Stany Sir\Tasks- Stany Sir\Task1\Task1\bin\Debug\ClassLibrary_Task1.dll
+E:\C# -Stany Sir\Tasks- Stany Sir\Task1\Task1\bin\Debug\ClassLibrary_Task1.pdb
+E:\C# -Stany Sir\Tasks- Stany Sir\Task1\Task1\obj\Debug\Task1.csproj.AssemblyReference.cache
+E:\C# -Stany Sir\Tasks- Stany Sir\Task1\Task1\obj\Debug\Task1.csproj.SuggestedBindingRedirects.cache
+E:\C# -Stany Sir\Tasks- Stany Sir\Task1\Task1\obj\Debug\Task1.csproj.CoreCompileInputs.cache
+E:\C# -Stany Sir\Tasks- Stany Sir\Task1\Task1\obj\Debug\Task1.csproj.CopyComplete
+E:\C# -Stany Sir\Tasks- Stany Sir\Task1\Task1\obj\Debug\Task1.exe
+E:\C# -Stany Sir\Tasks- Stany Sir\Task1\Task1\obj\Debug\Task1.pdb
