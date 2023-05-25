@@ -1,8 +1,0 @@
-C:\Users\SHADRIL HASSAN\Desktop\C#\Tasks\Mid\Task-2\New folder\Task4\Task4\bin\Debug\Task4.exe.config
-C:\Users\SHADRIL HASSAN\Desktop\C#\Tasks\Mid\Task-2\New folder\Task4\Task4\bin\Debug\Task4.exe
-C:\Users\SHADRIL HASSAN\Desktop\C#\Tasks\Mid\Task-2\New folder\Task4\Task4\bin\Debug\Task4.pdb
-C:\Users\SHADRIL HASSAN\Desktop\C#\Tasks\Mid\Task-2\New folder\Task4\Task4\obj\Debug\Task4.csproj.AssemblyReference.cache
-C:\Users\SHADRIL HASSAN\Desktop\C#\Tasks\Mid\Task-2\New folder\Task4\Task4\obj\Debug\Task4.csproj.SuggestedBindingRedirects.cache
-C:\Users\SHADRIL HASSAN\Desktop\C#\Tasks\Mid\Task-2\New folder\Task4\Task4\obj\Debug\Task4.csproj.CoreCompileInputs.cache
-C:\Users\SHADRIL HASSAN\Desktop\C#\Tasks\Mid\Task-2\New folder\Task4\Task4\obj\Debug\Task4.exe
-C:\Users\SHADRIL HASSAN\Desktop\C#\Tasks\Mid\Task-2\New folder\Task4\Task4\obj\Debug\Task4.pdb

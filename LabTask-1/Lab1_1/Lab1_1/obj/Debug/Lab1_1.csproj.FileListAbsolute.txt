@@ -1,8 +1,0 @@
-C:\Users\SHADRIL HASSAN\Desktop\C#\Tasks\Mid\LabTask-1\Lab1_1\Lab1_1\bin\Debug\Lab1_1.exe.config
-C:\Users\SHADRIL HASSAN\Desktop\C#\Tasks\Mid\LabTask-1\Lab1_1\Lab1_1\bin\Debug\Lab1_1.exe
-C:\Users\SHADRIL HASSAN\Desktop\C#\Tasks\Mid\LabTask-1\Lab1_1\Lab1_1\bin\Debug\Lab1_1.pdb
-C:\Users\SHADRIL HASSAN\Desktop\C#\Tasks\Mid\LabTask-1\Lab1_1\Lab1_1\obj\Debug\Lab1_1.csproj.AssemblyReference.cache
-C:\Users\SHADRIL HASSAN\Desktop\C#\Tasks\Mid\LabTask-1\Lab1_1\Lab1_1\obj\Debug\Lab1_1.csproj.SuggestedBindingRedirects.cache
-C:\Users\SHADRIL HASSAN\Desktop\C#\Tasks\Mid\LabTask-1\Lab1_1\Lab1_1\obj\Debug\Lab1_1.csproj.CoreCompileInputs.cache
-C:\Users\SHADRIL HASSAN\Desktop\C#\Tasks\Mid\LabTask-1\Lab1_1\Lab1_1\obj\Debug\Lab1_1.exe
-C:\Users\SHADRIL HASSAN\Desktop\C#\Tasks\Mid\LabTask-1\Lab1_1\Lab1_1\obj\Debug\Lab1_1.pdb
