@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Controllers;
+using Microsoft.Extensions.Hosting;
 using Post_API_CRUD.Context;
 using Post_API_CRUD.Interfaces.Manager;
 using Post_API_CRUD.Manager;
@@ -59,6 +60,20 @@ namespace Post_API_CRUD.Controllers
             }
         }
 
+        [HttpGet("title")]
+        public IActionResult GetAll(string title)
+        {
+            try
+            {
+                var posts = postManager.GetAll(title).ToList();
+                return CustomResult("Data loaded successfully", posts);
+            }
+            catch (Exception ex)
+            {
+                return CustomResult(ex.Message, HttpStatusCode.BadRequest);
+            }
+        }
+
         [HttpGet("id")]
         //public ActionResult<Post> GetById(int id)
         public IActionResult GetById(int id)
@@ -71,6 +86,35 @@ namespace Post_API_CRUD.Controllers
                     return CustomResult("Data not found", HttpStatusCode.NotFound);
                 }
                 return CustomResult("Data Found", post);
+            }
+            catch(Exception ex)
+            {
+                return CustomResult(ex.Message, HttpStatusCode.BadRequest);
+            }
+        }
+
+        [HttpGet("text")]
+        public IActionResult SearchPost(string text) 
+        {
+            try
+            {
+                var posts = postManager.SearchPost(text).ToList();
+                return CustomResult("Searching result", posts);
+            }
+            catch (Exception ex)
+            {
+                return CustomResult(ex.Message, HttpStatusCode.BadRequest);
+            }
+        }
+        // Paging
+        [HttpGet]
+        public IActionResult GetPosts(int page = 1)
+        {
+            try
+            {
+                var posts = postManager.GetPosts(page, 2).ToList(); // pageSize = 2
+                return CustomResult("Paging data for page no " + page, posts);
+
             }
             catch(Exception ex)
             {
