@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.33711.374
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookEmpire", "BookEmpire\BookEmpire.csproj", "{1C4C75D8-32B8-4CEB-B370-3CF560669B2E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookEmpire", "BookEmpire\BookEmpire.csproj", "{1C4C75D8-32B8-4CEB-B370-3CF560669B2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookEmpireRazor_Temp", "BookEmpireRazor_Temp\BookEmpireRazor_Temp.csproj", "{EDCED52E-B51E-416D-BC3A-7F3CE28E00C6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{1C4C75D8-32B8-4CEB-B370-3CF560669B2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C4C75D8-32B8-4CEB-B370-3CF560669B2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C4C75D8-32B8-4CEB-B370-3CF560669B2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDCED52E-B51E-416D-BC3A-7F3CE28E00C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDCED52E-B51E-416D-BC3A-7F3CE28E00C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDCED52E-B51E-416D-BC3A-7F3CE28E00C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDCED52E-B51E-416D-BC3A-7F3CE28E00C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
