@@ -11,7 +11,7 @@ namespace BookEmpire.Models
         [MaxLength(30)]
         [DisplayName("Category Name")]
         public string Name { get; set; }
-        [Required(ErrorMessage = "The Display Order field is required.")]
+        [Required]
         [DisplayName("Display Order")]
         [Range(1,100)]
         public int DisplayOrder { get; set; }
