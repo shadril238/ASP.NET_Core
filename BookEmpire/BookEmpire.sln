@@ -5,7 +5,7 @@ VisualStudioVersion = 17.7.33711.374
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookEmpire", "BookEmpire\BookEmpire.csproj", "{1C4C75D8-32B8-4CEB-B370-3CF560669B2E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookEmpireRazor_Temp", "BookEmpireRazor_Temp\BookEmpireRazor_Temp.csproj", "{EDCED52E-B51E-416D-BC3A-7F3CE28E00C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookEmpireRazor_Temp", "BookEmpireRazor_Temp\BookEmpireRazor_Temp.csproj", "{EDCED52E-B51E-416D-BC3A-7F3CE28E00C6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
