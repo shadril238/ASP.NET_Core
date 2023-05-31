@@ -31,6 +31,7 @@ namespace BookEmpireRazor_Temp.Pages.Categories
             }
             _db.Categories.Remove(obj);
             _db.SaveChanges();
+            TempData["success"] = "Category deleted successfully";
             return RedirectToPage("Index");
         }
     }
