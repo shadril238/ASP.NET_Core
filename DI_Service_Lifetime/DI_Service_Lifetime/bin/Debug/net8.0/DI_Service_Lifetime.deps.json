@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "DI_Service_Lifetime/1.0.0": {
+        "runtime": {
+          "DI_Service_Lifetime.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DI_Service_Lifetime/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
