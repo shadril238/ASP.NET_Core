@@ -1,6 +1,7 @@
 ﻿// shadril238
 using BookEmpire.DataAccess.Contexts;
 using BookEmpire.DataAccess.Repositories.IRepository;
+using BookEmpire.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,23 +10,16 @@ using System.Threading.Tasks;
 
 namespace BookEmpire.DataAccess.Repositories
 {
-    public class UnitOfWork : IUnitOfWork
+    public class ProductRepository : Repository<Product>, IProductRepository
     {
         private readonly BookEmpireDbContext _db;
-        public ICategoryRepository Category { get; private set; }
-
-        public IProductRepository Product { get; private set; }
-
-        public UnitOfWork(BookEmpireDbContext db)
+        public ProductRepository(BookEmpireDbContext db) : base(db)
         {
             this._db = db;
-            Category = new CategoryRepository(this._db);
-            Product = new ProductRepository(this._db);
         }
-
-        public void Save()
+        public void Update(Product product)
         {
-            _db.SaveChanges();
+            _db.Products.Update(product);
         }
     }
 }

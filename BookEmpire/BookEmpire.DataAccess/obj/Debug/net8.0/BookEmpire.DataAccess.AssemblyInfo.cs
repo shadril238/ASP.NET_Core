@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BookEmpire.DataAccess")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+44955c25c6d013b143c282bb90d24af5f368974d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2f3cf8f81f5794cc9a8e96a44a81390aec583af3")]
 [assembly: System.Reflection.AssemblyProductAttribute("BookEmpire.DataAccess")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BookEmpire.DataAccess")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
