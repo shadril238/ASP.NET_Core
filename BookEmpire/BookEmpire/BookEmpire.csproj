@@ -20,4 +20,8 @@
     <ProjectReference Include="..\BookEmpire.DataAccess\BookEmpire.DataAccess.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+
 </Project>

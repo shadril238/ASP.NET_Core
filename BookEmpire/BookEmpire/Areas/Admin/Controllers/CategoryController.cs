@@ -3,14 +3,15 @@ using BookEmpire.DataAccess.Repositories.IRepository;
 using BookEmpire.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace BookEmpire.Controllers
+namespace BookEmpire.Areas.Admin.Controllers
 {
+    [Area("Admin")]
     public class CategoryController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;
-        public CategoryController(IUnitOfWork unitOfWork) 
+        public CategoryController(IUnitOfWork unitOfWork)
         {
-            this._unitOfWork = unitOfWork;
+            _unitOfWork = unitOfWork;
         }
         [HttpGet]
         public IActionResult Index()
@@ -39,13 +40,13 @@ namespace BookEmpire.Controllers
                 TempData["success"] = "Category created successfully";
                 return RedirectToAction("Index");
             }
-            return View(); 
+            return View();
         }
 
         [HttpGet]
         public IActionResult Edit(int? id)
         {
-            if(id == null || id == 0)
+            if (id == null || id == 0)
             {
                 return NotFound();
             }
@@ -99,7 +100,7 @@ namespace BookEmpire.Controllers
         public IActionResult DeleteCategory(int? id)
         {
             Category? category = _unitOfWork.Category.Get(c => c.Id == id);
-            if(category == null)
+            if (category == null)
             {
                 return NotFound();
             }
