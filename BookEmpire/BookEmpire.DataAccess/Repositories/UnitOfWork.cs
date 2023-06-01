@@ -1,25 +1,26 @@
 ﻿using BookEmpire.DataAccess.Contexts;
 using BookEmpire.DataAccess.Repositories.IRepository;
-using BookEmpire.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace BookEmpire.DataAccess.Repositories
 {
-    public class CategoryRepository : Repository<Category>, ICategoryRepository
+    public class UnitOfWork : IUnitOfWork
     {
         private readonly BookEmpireDbContext _db;
-        public CategoryRepository(BookEmpireDbContext db) : base(db)
+        public ICategoryRepository Category { get; private set; }
+        public UnitOfWork(BookEmpireDbContext db)
         {
             this._db = db;
+            Category = new CategoryRepository(this._db);
         }
-        public void Update(Category category)
+
+        public void Save()
         {
-            _db.Categories.Update(category);
+            _db.SaveChanges();
         }
     }
 }
