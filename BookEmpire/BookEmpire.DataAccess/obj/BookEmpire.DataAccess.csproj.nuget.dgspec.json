@@ -1,0 +1,196 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\shadr\\Desktop\\ASP.NET_Core\\BookEmpire\\BookEmpire.DataAccess\\BookEmpire.DataAccess.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\shadr\\Desktop\\ASP.NET_Core\\BookEmpire\\BookEmpire.DataAccess\\BookEmpire.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\shadr\\Desktop\\ASP.NET_Core\\BookEmpire\\BookEmpire.DataAccess\\BookEmpire.DataAccess.csproj",
+        "projectName": "BookEmpire.DataAccess",
+        "projectPath": "C:\\Users\\shadr\\Desktop\\ASP.NET_Core\\BookEmpire\\BookEmpire.DataAccess\\BookEmpire.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\shadr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\shadr\\Desktop\\ASP.NET_Core\\BookEmpire\\BookEmpire.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\shadr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\shadr\\Desktop\\ASP.NET_Core\\BookEmpire\\BookEmpire.Models\\BookEmpire.Models.csproj": {
+                "projectPath": "C:\\Users\\shadr\\Desktop\\ASP.NET_Core\\BookEmpire\\BookEmpire.Models\\BookEmpire.Models.csproj"
+              },
+              "C:\\Users\\shadr\\Desktop\\ASP.NET_Core\\BookEmpire\\BookEmpire.Utility\\BookEmpire.Utility.csproj": {
+                "projectPath": "C:\\Users\\shadr\\Desktop\\ASP.NET_Core\\BookEmpire\\BookEmpire.Utility\\BookEmpire.Utility.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0-preview.4.23259.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.0-preview.4.23259.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0-preview.4.23259.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-preview.4.23260.5\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\shadr\\Desktop\\ASP.NET_Core\\BookEmpire\\BookEmpire.Models\\BookEmpire.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\shadr\\Desktop\\ASP.NET_Core\\BookEmpire\\BookEmpire.Models\\BookEmpire.Models.csproj",
+        "projectName": "BookEmpire.Models",
+        "projectPath": "C:\\Users\\shadr\\Desktop\\ASP.NET_Core\\BookEmpire\\BookEmpire.Models\\BookEmpire.Models.csproj",
+        "packagesPath": "C:\\Users\\shadr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\shadr\\Desktop\\ASP.NET_Core\\BookEmpire\\BookEmpire.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\shadr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-preview.4.23260.5\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\shadr\\Desktop\\ASP.NET_Core\\BookEmpire\\BookEmpire.Utility\\BookEmpire.Utility.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\shadr\\Desktop\\ASP.NET_Core\\BookEmpire\\BookEmpire.Utility\\BookEmpire.Utility.csproj",
+        "projectName": "BookEmpire.Utility",
+        "projectPath": "C:\\Users\\shadr\\Desktop\\ASP.NET_Core\\BookEmpire\\BookEmpire.Utility\\BookEmpire.Utility.csproj",
+        "packagesPath": "C:\\Users\\shadr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\shadr\\Desktop\\ASP.NET_Core\\BookEmpire\\BookEmpire.Utility\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\shadr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-preview.4.23260.5\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

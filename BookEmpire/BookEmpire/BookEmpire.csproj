@@ -13,6 +13,11 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.0-preview.4.23261.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BookEmpire.DataAccess\BookEmpire.DataAccess.csproj" />
   </ItemGroup>
 
 </Project>

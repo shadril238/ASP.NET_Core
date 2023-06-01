@@ -1,0 +1,13 @@
+C:\Users\shadr\Desktop\ASP.NET_Core\BookEmpire\BookEmpire.Models\bin\Debug\net8.0\BookEmpire.Models.deps.json
+C:\Users\shadr\Desktop\ASP.NET_Core\BookEmpire\BookEmpire.Models\bin\Debug\net8.0\BookEmpire.Models.dll
+C:\Users\shadr\Desktop\ASP.NET_Core\BookEmpire\BookEmpire.Models\bin\Debug\net8.0\BookEmpire.Models.pdb
+C:\Users\shadr\Desktop\ASP.NET_Core\BookEmpire\BookEmpire.Models\obj\Debug\net8.0\BookEmpire.Models.csproj.AssemblyReference.cache
+C:\Users\shadr\Desktop\ASP.NET_Core\BookEmpire\BookEmpire.Models\obj\Debug\net8.0\BookEmpire.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shadr\Desktop\ASP.NET_Core\BookEmpire\BookEmpire.Models\obj\Debug\net8.0\BookEmpire.Models.AssemblyInfoInputs.cache
+C:\Users\shadr\Desktop\ASP.NET_Core\BookEmpire\BookEmpire.Models\obj\Debug\net8.0\BookEmpire.Models.AssemblyInfo.cs
+C:\Users\shadr\Desktop\ASP.NET_Core\BookEmpire\BookEmpire.Models\obj\Debug\net8.0\BookEmpire.Models.csproj.CoreCompileInputs.cache
+C:\Users\shadr\Desktop\ASP.NET_Core\BookEmpire\BookEmpire.Models\obj\Debug\net8.0\BookEmpire.Models.sourcelink.json
+C:\Users\shadr\Desktop\ASP.NET_Core\BookEmpire\BookEmpire.Models\obj\Debug\net8.0\BookEmpire.Models.dll
+C:\Users\shadr\Desktop\ASP.NET_Core\BookEmpire\BookEmpire.Models\obj\Debug\net8.0\refint\BookEmpire.Models.dll
+C:\Users\shadr\Desktop\ASP.NET_Core\BookEmpire\BookEmpire.Models\obj\Debug\net8.0\BookEmpire.Models.pdb
+C:\Users\shadr\Desktop\ASP.NET_Core\BookEmpire\BookEmpire.Models\obj\Debug\net8.0\ref\BookEmpire.Models.dll

@@ -1,4 +1,5 @@
-﻿using BookEmpire.Contexts;
+﻿using BookEmpire.DataAccess.Contexts;
+using BookEmpire.DataAccess.Repositories.IRepository;
 using BookEmpire.Models;
 using Microsoft.AspNetCore.Mvc;
 
@@ -6,15 +7,15 @@ namespace BookEmpire.Controllers
 {
     public class CategoryController : Controller
     {
-        private readonly BookEmpireDbContext _db;
-        public CategoryController(BookEmpireDbContext db) 
+        private readonly ICategoryRepository _categoryRepo;
+        public CategoryController(ICategoryRepository db) 
         {
-            this._db = db;
+            _categoryRepo = db;
         }
         [HttpGet]
         public IActionResult Index()
         {
-            var objCategoryList = _db.Categories.ToList();
+            var objCategoryList = _categoryRepo.GetAll().ToList();
             return View(objCategoryList);
         }
         [HttpGet]
@@ -33,8 +34,8 @@ namespace BookEmpire.Controllers
 
             if (ModelState.IsValid)
             {
-                _db.Categories.Add(category);
-                _db.SaveChanges();
+                _categoryRepo.Add(category);
+                _categoryRepo.Save();
                 TempData["success"] = "Category created successfully";
                 return RedirectToAction("Index");
             }
@@ -48,7 +49,7 @@ namespace BookEmpire.Controllers
             {
                 return NotFound();
             }
-            Category? categoryFromDb = _db.Categories.Find(id);
+            Category? categoryFromDb = _categoryRepo.Get(c => c.Id == id);
             //Category? categoryFromDb1 = _db.Categories.FirstOrDefault(c=> c.Id == id);
             //Category? categoryFromDb2 = _db.Categories.Where(c=> c.Id == id).FirstOrDefault();
 
@@ -69,8 +70,8 @@ namespace BookEmpire.Controllers
 
             if (ModelState.IsValid)
             {
-                _db.Categories.Update(category);
-                _db.SaveChanges();
+                _categoryRepo.Update(category);
+                _categoryRepo.Save();
                 TempData["success"] = "Category updated successfully";
                 return RedirectToAction("Index");
             }
@@ -84,7 +85,7 @@ namespace BookEmpire.Controllers
             {
                 return NotFound();
             }
-            Category? categoryFromDb = _db.Categories.Find(id);
+            Category? categoryFromDb = _categoryRepo.Get(c => c.Id == id);
             //Category? categoryFromDb1 = _db.Categories.FirstOrDefault(c=> c.Id == id);
             //Category? categoryFromDb2 = _db.Categories.Where(c=> c.Id == id).FirstOrDefault();
 
@@ -99,13 +100,13 @@ namespace BookEmpire.Controllers
         [ActionName("Delete")]
         public IActionResult DeleteCategory(int? id)
         {
-            Category? category = _db.Categories.Find(id);
+            Category? category = _categoryRepo.Get(c => c.Id == id);
             if(category == null)
             {
                 return NotFound();
             }
-            _db.Categories.Remove(category);
-            _db.SaveChanges();
+            _categoryRepo.Remove(category);
+            _categoryRepo.Save();
             TempData["success"] = "Category deleted successfully";
             return RedirectToAction("Index");
         }
