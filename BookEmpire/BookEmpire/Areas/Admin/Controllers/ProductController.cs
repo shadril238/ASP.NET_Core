@@ -1,7 +1,9 @@
 ﻿// shadril238
 using BookEmpire.DataAccess.Repositories.IRepository;
 using BookEmpire.Models;
+using BookEmpire.Models.ViewModels;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace BookEmpire.Areas.Admin.Controllers
 {
@@ -23,14 +25,27 @@ namespace BookEmpire.Areas.Admin.Controllers
         [HttpGet]
         public IActionResult Create()
         {
-            return View();
+            // Projection
+            IEnumerable<SelectListItem> CategoryList = _unitOfWork.Category
+                .GetAll().Select(c => new SelectListItem
+                {
+                    Text = c.Name,
+                    Value = c.Id.ToString(),
+                });
+            //ViewBag.CategoryList = CategoryList;
+            ProductVM productVM = new()
+            {
+                CategoryList= CategoryList,
+                Product=new Product()
+            };
+            return View(productVM);
         }
         [HttpPost]
-        public IActionResult Create(Product product)
+        public IActionResult Create(ProductVM obj)
         {
             if(ModelState.IsValid)
             {
-                _unitOfWork.Product.Add(product);
+                _unitOfWork.Product.Add(obj.Product);
                 _unitOfWork.Save();
                 TempData["success"] = "Product created successfully";
                 return RedirectToAction("Index");

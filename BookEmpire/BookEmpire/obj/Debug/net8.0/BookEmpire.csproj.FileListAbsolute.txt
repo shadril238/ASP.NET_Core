@@ -258,3 +258,6 @@ C:\Users\shadr\Desktop\ASP.NET_Core\BookEmpire\BookEmpire\obj\Debug\net8.0\refin
 C:\Users\shadr\Desktop\ASP.NET_Core\BookEmpire\BookEmpire\obj\Debug\net8.0\BookEmpire.pdb
 C:\Users\shadr\Desktop\ASP.NET_Core\BookEmpire\BookEmpire\obj\Debug\net8.0\BookEmpire.genruntimeconfig.cache
 C:\Users\shadr\Desktop\ASP.NET_Core\BookEmpire\BookEmpire\obj\Debug\net8.0\ref\BookEmpire.dll
+C:\Users\shadr\Desktop\ASP.NET_Core\BookEmpire\BookEmpire\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\shadr\Desktop\ASP.NET_Core\BookEmpire\BookEmpire\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+C:\Users\shadr\Desktop\ASP.NET_Core\BookEmpire\BookEmpire\obj\Debug\net8.0\BookEmpire.MvcApplicationPartsAssemblyInfo.cs

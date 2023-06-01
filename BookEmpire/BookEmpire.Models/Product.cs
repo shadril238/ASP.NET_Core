@@ -5,6 +5,8 @@ using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations.Schema;
+using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
 
 namespace BookEmpire.Models
 {
@@ -39,6 +41,14 @@ namespace BookEmpire.Models
         [Display(Name = "Price for 100+")]
         [Range(1, 1000)]
         public double Price100 { get; set; }
+
+        [Required]
+        [ForeignKey("Category")]
+        public int CategoryId { get; set; }
+        [ValidateNever]
+        public string ImageUrl { get; set; }
+
+        public virtual Category Category { get; set; }
 
     }
 }

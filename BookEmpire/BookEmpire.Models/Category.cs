@@ -15,5 +15,10 @@ namespace BookEmpire.Models
         [DisplayName("Display Order")]
         [Range(1, 100)]
         public int DisplayOrder { get; set; }
+        public virtual ICollection<Product> Products { get; set; }
+        public Category()
+        {
+            Products = new List<Product>();
+        }
     }
 }
