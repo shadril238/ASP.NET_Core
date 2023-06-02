@@ -19,7 +19,25 @@ namespace BookEmpire.DataAccess.Repositories
         }
         public void Update(Product product)
         {
-            _db.Products.Update(product);
+           var objFromDb = _db.Products.FirstOrDefault(p => p.Id == product.Id);
+
+            if (objFromDb != null)
+            {
+                objFromDb.Title = product.Title;
+                objFromDb.Description = product.Description;
+                objFromDb.ISBN = product.ISBN;
+                objFromDb.Price = product.Price;
+                objFromDb.Price50 = product.Price50;
+                objFromDb.Price100 = product.Price100;
+                objFromDb.ListPrice = product.ListPrice;
+                objFromDb.CategoryId = product.CategoryId;
+                objFromDb.Author = product.Author;
+                
+                if(product.ImageUrl != null)
+                {
+                    objFromDb.ImageUrl = product.ImageUrl;
+                }
+            }
         }
     }
 }

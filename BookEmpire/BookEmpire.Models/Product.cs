@@ -44,9 +44,11 @@ namespace BookEmpire.Models
 
         [Required]
         [ForeignKey("Category")]
+        [Display(Name = "Category")]
         public int CategoryId { get; set; }
         [ValidateNever]
         public string ImageUrl { get; set; }
+        [ValidateNever]
 
         public virtual Category Category { get; set; }
 
