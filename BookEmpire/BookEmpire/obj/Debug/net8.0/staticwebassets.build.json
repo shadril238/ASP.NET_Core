@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Vfm9QQNNoMoOqgzpHcVWLr0j5i1DEy11ymjP+pHGwkg=",
+  "Hash": "Kj+r3egpQco/iciHo+JSiUi2fw21qxqU2xdIoAoJqf0=",
   "Source": "BookEmpire",
   "BasePath": "_content/BookEmpire",
   "Mode": "Default",
@@ -185,23 +185,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\product\\f8edc599-8c14-46d4-9619-3eb5880a79d6.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\shadr\\Desktop\\ASP.NET_Core\\BookEmpire\\BookEmpire\\wwwroot\\images\\product\\fab87c09-d13c-4682-b6fd-b48d9e8a87d4.jpg",
-      "SourceId": "BookEmpire",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\shadr\\Desktop\\ASP.NET_Core\\BookEmpire\\BookEmpire\\wwwroot\\",
-      "BasePath": "_content/BookEmpire",
-      "RelativePath": "images/product/fab87c09-d13c-4682-b6fd-b48d9e8a87d4.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\product\\fab87c09-d13c-4682-b6fd-b48d9e8a87d4.jpg"
     },
     {
       "Identity": "C:\\Users\\shadr\\Desktop\\ASP.NET_Core\\BookEmpire\\BookEmpire\\wwwroot\\js\\product.js",
