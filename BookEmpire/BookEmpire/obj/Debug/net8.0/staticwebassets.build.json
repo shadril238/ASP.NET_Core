@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Kj+r3egpQco/iciHo+JSiUi2fw21qxqU2xdIoAoJqf0=",
+  "Hash": "NpLmqLVXB5GMdL5LFuR9N39Nqc5WTU4t+FnfValrnU8=",
   "Source": "BookEmpire",
   "BasePath": "_content/BookEmpire",
   "Mode": "Default",
@@ -83,23 +83,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
-    },
-    {
-      "Identity": "C:\\Users\\shadr\\Desktop\\ASP.NET_Core\\BookEmpire\\BookEmpire\\wwwroot\\images\\product\\1af5dd42-8a18-4f90-bbad-eaeb2205e99c.jpg",
-      "SourceId": "BookEmpire",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\shadr\\Desktop\\ASP.NET_Core\\BookEmpire\\BookEmpire\\wwwroot\\",
-      "BasePath": "_content/BookEmpire",
-      "RelativePath": "images/product/1af5dd42-8a18-4f90-bbad-eaeb2205e99c.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\product\\1af5dd42-8a18-4f90-bbad-eaeb2205e99c.jpg"
     },
     {
       "Identity": "C:\\Users\\shadr\\Desktop\\ASP.NET_Core\\BookEmpire\\BookEmpire\\wwwroot\\images\\product\\2a21a0db-cf39-4c8b-8b04-a7d60d7ae346.jpg",
