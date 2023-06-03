@@ -1,9 +1,11 @@
 ﻿using BookEmpire.Models;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace BookEmpire.DataAccess.Contexts
 {
-    public class BookEmpireDbContext : DbContext
+    public class BookEmpireDbContext : IdentityDbContext<IdentityUser>
     {
         public BookEmpireDbContext(DbContextOptions<BookEmpireDbContext> options) : base(options)
         {
@@ -12,10 +14,14 @@ namespace BookEmpire.DataAccess.Contexts
 
         public DbSet<Category> Categories { get; set; }
         public DbSet<Product> Products { get; set; }
+        public DbSet<ApplicationUser> ApplicationUsers { get; set; }
 
         //seed data
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            // for identity
+            base.OnModelCreating(modelBuilder);
+
             //Category
             modelBuilder.Entity<Category>().HasData(
                 new Category { Id = 1, Name = "Action", DisplayOrder = 1},

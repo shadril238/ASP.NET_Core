@@ -1,8 +1,23 @@
 {
   "version": 2,
-  "dgSpecHash": "XJOxva5aLa0QkXGPET+qqthMJFAsyIIhqCPmckuXDb/AjtQISldyudYxWV5/j1VhluZSkgS0vYgLP6H6p4EWQw==",
+  "dgSpecHash": "XbJKdJ9WISnhyPuIvxncnBv3qi978pk4t4K93+4A0cTJlcvh/VIlVxiCCP/thYehFjsX9EqjDw3SKo2vOJERUw==",
   "success": true,
   "projectFilePath": "C:\\Users\\shadr\\Desktop\\ASP.NET_Core\\BookEmpire\\BookEmpire.Utility\\BookEmpire.Utility.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\shadr\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\8.0.0-preview.4.23260.4\\microsoft.aspnetcore.cryptography.internal.8.0.0-preview.4.23260.4.nupkg.sha512",
+    "C:\\Users\\shadr\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\8.0.0-preview.4.23260.4\\microsoft.aspnetcore.cryptography.keyderivation.8.0.0-preview.4.23260.4.nupkg.sha512",
+    "C:\\Users\\shadr\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0-preview.4.23260.4\\microsoft.aspnetcore.identity.ui.8.0.0-preview.4.23260.4.nupkg.sha512",
+    "C:\\Users\\shadr\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\8.0.0-preview.4.23259.5\\microsoft.extensions.caching.abstractions.8.0.0-preview.4.23259.5.nupkg.sha512",
+    "C:\\Users\\shadr\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0-preview.4.23259.5\\microsoft.extensions.dependencyinjection.8.0.0-preview.4.23259.5.nupkg.sha512",
+    "C:\\Users\\shadr\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0-preview.4.23259.5\\microsoft.extensions.dependencyinjection.abstractions.8.0.0-preview.4.23259.5.nupkg.sha512",
+    "C:\\Users\\shadr\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\8.0.0-preview.4.23259.5\\microsoft.extensions.fileproviders.abstractions.8.0.0-preview.4.23259.5.nupkg.sha512",
+    "C:\\Users\\shadr\\.nuget\\packages\\microsoft.extensions.fileproviders.embedded\\8.0.0-preview.4.23260.4\\microsoft.extensions.fileproviders.embedded.8.0.0-preview.4.23260.4.nupkg.sha512",
+    "C:\\Users\\shadr\\.nuget\\packages\\microsoft.extensions.identity.core\\8.0.0-preview.4.23260.4\\microsoft.extensions.identity.core.8.0.0-preview.4.23260.4.nupkg.sha512",
+    "C:\\Users\\shadr\\.nuget\\packages\\microsoft.extensions.identity.stores\\8.0.0-preview.4.23260.4\\microsoft.extensions.identity.stores.8.0.0-preview.4.23260.4.nupkg.sha512",
+    "C:\\Users\\shadr\\.nuget\\packages\\microsoft.extensions.logging\\8.0.0-preview.4.23259.5\\microsoft.extensions.logging.8.0.0-preview.4.23259.5.nupkg.sha512",
+    "C:\\Users\\shadr\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0-preview.4.23259.5\\microsoft.extensions.logging.abstractions.8.0.0-preview.4.23259.5.nupkg.sha512",
+    "C:\\Users\\shadr\\.nuget\\packages\\microsoft.extensions.options\\8.0.0-preview.4.23259.5\\microsoft.extensions.options.8.0.0-preview.4.23259.5.nupkg.sha512",
+    "C:\\Users\\shadr\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0-preview.4.23259.5\\microsoft.extensions.primitives.8.0.0-preview.4.23259.5.nupkg.sha512"
+  ],
   "logs": []
 }
