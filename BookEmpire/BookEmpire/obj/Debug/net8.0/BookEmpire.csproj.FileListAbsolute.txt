@@ -1,12 +1,3 @@
-C:\Users\shadr\Desktop\ASP.NET_Core\BookEmpire\BookEmpire\obj\Debug\net8.0\BookEmpire.csproj.AssemblyReference.cache
-C:\Users\shadr\Desktop\ASP.NET_Core\BookEmpire\BookEmpire\obj\Debug\net8.0\BookEmpire.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\shadr\Desktop\ASP.NET_Core\BookEmpire\BookEmpire\obj\Debug\net8.0\BookEmpire.AssemblyInfoInputs.cache
-C:\Users\shadr\Desktop\ASP.NET_Core\BookEmpire\BookEmpire\obj\Debug\net8.0\BookEmpire.AssemblyInfo.cs
-C:\Users\shadr\Desktop\ASP.NET_Core\BookEmpire\BookEmpire\obj\Debug\net8.0\BookEmpire.csproj.CoreCompileInputs.cache
-C:\Users\shadr\Desktop\ASP.NET_Core\BookEmpire\BookEmpire\obj\Debug\net8.0\BookEmpire.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\shadr\Desktop\ASP.NET_Core\BookEmpire\BookEmpire\obj\Debug\net8.0\BookEmpire.RazorAssemblyInfo.cache
-C:\Users\shadr\Desktop\ASP.NET_Core\BookEmpire\BookEmpire\obj\Debug\net8.0\BookEmpire.RazorAssemblyInfo.cs
-C:\Users\shadr\Desktop\ASP.NET_Core\BookEmpire\BookEmpire\obj\Debug\net8.0\BookEmpire.sourcelink.json
 C:\Users\shadr\Desktop\ASP.NET_Core\BookEmpire\BookEmpire\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\shadr\Desktop\ASP.NET_Core\BookEmpire\BookEmpire\bin\Debug\net8.0\appsettings.json
 C:\Users\shadr\Desktop\ASP.NET_Core\BookEmpire\BookEmpire\bin\Debug\net8.0\BookEmpire.staticwebassets.runtime.json
@@ -18,6 +9,7 @@ C:\Users\shadr\Desktop\ASP.NET_Core\BookEmpire\BookEmpire\bin\Debug\net8.0\BookE
 C:\Users\shadr\Desktop\ASP.NET_Core\BookEmpire\BookEmpire\bin\Debug\net8.0\Azure.Core.dll
 C:\Users\shadr\Desktop\ASP.NET_Core\BookEmpire\BookEmpire\bin\Debug\net8.0\Azure.Identity.dll
 C:\Users\shadr\Desktop\ASP.NET_Core\BookEmpire\BookEmpire\bin\Debug\net8.0\Humanizer.dll
+C:\Users\shadr\Desktop\ASP.NET_Core\BookEmpire\BookEmpire\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
 C:\Users\shadr\Desktop\ASP.NET_Core\BookEmpire\BookEmpire\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
 C:\Users\shadr\Desktop\ASP.NET_Core\BookEmpire\BookEmpire\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\shadr\Desktop\ASP.NET_Core\BookEmpire\BookEmpire\bin\Debug\net8.0\Microsoft.Build.dll
@@ -61,6 +53,7 @@ C:\Users\shadr\Desktop\ASP.NET_Core\BookEmpire\BookEmpire\bin\Debug\net8.0\Micro
 C:\Users\shadr\Desktop\ASP.NET_Core\BookEmpire\BookEmpire\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\shadr\Desktop\ASP.NET_Core\BookEmpire\BookEmpire\bin\Debug\net8.0\Mono.TextTemplating.dll
 C:\Users\shadr\Desktop\ASP.NET_Core\BookEmpire\BookEmpire\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\shadr\Desktop\ASP.NET_Core\BookEmpire\BookEmpire\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
 C:\Users\shadr\Desktop\ASP.NET_Core\BookEmpire\BookEmpire\bin\Debug\net8.0\NuGet.Common.dll
 C:\Users\shadr\Desktop\ASP.NET_Core\BookEmpire\BookEmpire\bin\Debug\net8.0\NuGet.Configuration.dll
 C:\Users\shadr\Desktop\ASP.NET_Core\BookEmpire\BookEmpire\bin\Debug\net8.0\NuGet.DependencyResolver.Core.dll
@@ -242,6 +235,16 @@ C:\Users\shadr\Desktop\ASP.NET_Core\BookEmpire\BookEmpire\bin\Debug\net8.0\BookE
 C:\Users\shadr\Desktop\ASP.NET_Core\BookEmpire\BookEmpire\bin\Debug\net8.0\BookEmpire.DataAccess.pdb
 C:\Users\shadr\Desktop\ASP.NET_Core\BookEmpire\BookEmpire\bin\Debug\net8.0\BookEmpire.Models.pdb
 C:\Users\shadr\Desktop\ASP.NET_Core\BookEmpire\BookEmpire\bin\Debug\net8.0\BookEmpire.Utility.pdb
+C:\Users\shadr\Desktop\ASP.NET_Core\BookEmpire\BookEmpire\obj\Debug\net8.0\BookEmpire.csproj.AssemblyReference.cache
+C:\Users\shadr\Desktop\ASP.NET_Core\BookEmpire\BookEmpire\obj\Debug\net8.0\BookEmpire.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shadr\Desktop\ASP.NET_Core\BookEmpire\BookEmpire\obj\Debug\net8.0\BookEmpire.AssemblyInfoInputs.cache
+C:\Users\shadr\Desktop\ASP.NET_Core\BookEmpire\BookEmpire\obj\Debug\net8.0\BookEmpire.AssemblyInfo.cs
+C:\Users\shadr\Desktop\ASP.NET_Core\BookEmpire\BookEmpire\obj\Debug\net8.0\BookEmpire.csproj.CoreCompileInputs.cache
+C:\Users\shadr\Desktop\ASP.NET_Core\BookEmpire\BookEmpire\obj\Debug\net8.0\BookEmpire.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\shadr\Desktop\ASP.NET_Core\BookEmpire\BookEmpire\obj\Debug\net8.0\BookEmpire.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\shadr\Desktop\ASP.NET_Core\BookEmpire\BookEmpire\obj\Debug\net8.0\BookEmpire.RazorAssemblyInfo.cache
+C:\Users\shadr\Desktop\ASP.NET_Core\BookEmpire\BookEmpire\obj\Debug\net8.0\BookEmpire.RazorAssemblyInfo.cs
+C:\Users\shadr\Desktop\ASP.NET_Core\BookEmpire\BookEmpire\obj\Debug\net8.0\BookEmpire.sourcelink.json
 C:\Users\shadr\Desktop\ASP.NET_Core\BookEmpire\BookEmpire\obj\Debug\net8.0\staticwebassets\msbuild.BookEmpire.Microsoft.AspNetCore.StaticWebAssets.props
 C:\Users\shadr\Desktop\ASP.NET_Core\BookEmpire\BookEmpire\obj\Debug\net8.0\staticwebassets\msbuild.build.BookEmpire.props
 C:\Users\shadr\Desktop\ASP.NET_Core\BookEmpire\BookEmpire\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.BookEmpire.props
@@ -258,6 +261,3 @@ C:\Users\shadr\Desktop\ASP.NET_Core\BookEmpire\BookEmpire\obj\Debug\net8.0\refin
 C:\Users\shadr\Desktop\ASP.NET_Core\BookEmpire\BookEmpire\obj\Debug\net8.0\BookEmpire.pdb
 C:\Users\shadr\Desktop\ASP.NET_Core\BookEmpire\BookEmpire\obj\Debug\net8.0\BookEmpire.genruntimeconfig.cache
 C:\Users\shadr\Desktop\ASP.NET_Core\BookEmpire\BookEmpire\obj\Debug\net8.0\ref\BookEmpire.dll
-C:\Users\shadr\Desktop\ASP.NET_Core\BookEmpire\BookEmpire\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
-C:\Users\shadr\Desktop\ASP.NET_Core\BookEmpire\BookEmpire\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
-C:\Users\shadr\Desktop\ASP.NET_Core\BookEmpire\BookEmpire\obj\Debug\net8.0\BookEmpire.MvcApplicationPartsAssemblyInfo.cs

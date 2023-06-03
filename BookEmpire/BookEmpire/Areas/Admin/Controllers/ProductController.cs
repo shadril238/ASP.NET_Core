@@ -2,8 +2,11 @@
 using BookEmpire.DataAccess.Repositories.IRepository;
 using BookEmpire.Models;
 using BookEmpire.Models.ViewModels;
+using Microsoft.AspNetCore.Http.Json;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using System.Text.Json.Serialization;
+using System.Text.Json;
 
 namespace BookEmpire.Areas.Admin.Controllers
 {
@@ -12,7 +15,6 @@ namespace BookEmpire.Areas.Admin.Controllers
     {
         private readonly IUnitOfWork _unitOfWork;
         private readonly IWebHostEnvironment _webHostEnvironment;
-
         public ProductController(IUnitOfWork unitOfWork, IWebHostEnvironment webHostEnvironment)
         {
             _unitOfWork = unitOfWork;
@@ -21,7 +23,7 @@ namespace BookEmpire.Areas.Admin.Controllers
         [HttpGet]
         public IActionResult Index()
         {
-            var objProductList = _unitOfWork.Product.GetAll(includeProperties:"Category").ToList();
+            List<Product> objProductList = _unitOfWork.Product.GetAll(includeProperties:"Category").ToList();
             return View(objProductList);
         }
         [HttpGet]
@@ -136,5 +138,15 @@ namespace BookEmpire.Areas.Admin.Controllers
             TempData["success"] = "Product deleted successfully";
             return RedirectToAction("Index");
         }
+
+
+        #region API CALLS
+        [HttpGet]
+        public IActionResult GetAll()
+        {
+            List<Product> objProductList = _unitOfWork.Product.GetAll(includeProperties: "Category").ToList();
+            return Json(new { data = objProductList });
+        }
+        #endregion
     }
 }

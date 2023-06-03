@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 
 namespace BookEmpire.Models
 {
@@ -15,6 +16,7 @@ namespace BookEmpire.Models
         [DisplayName("Display Order")]
         [Range(1, 100)]
         public int DisplayOrder { get; set; }
+        [JsonIgnore]
         public virtual ICollection<Product> Products { get; set; }
         public Category()
         {
