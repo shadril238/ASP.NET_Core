@@ -1,2 +1,0 @@
-﻿Used Packages in this project :-
-	1. BCrypt.Net-Next (by Chris McKee, Ryan D. Emerl, Damien Miller)
